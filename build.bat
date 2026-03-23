@@ -93,7 +93,7 @@ if exist "%VERSIONED_BUILD_ZIP%" del /Q "%VERSIONED_BUILD_ZIP%"
 
 :package_build
 :: Archive the build output without renaming the build directory.
-tar.exe -a -cf "%VERSIONED_BUILD_ZIP%" -C "%BUILD_DIR%" .
+tar.exe -a -cf "%VERSIONED_BUILD_ZIP%" -C "%BUILD_DIR%" *
 if errorlevel 1 (
     echo %RED%[!] Failed to create %VERSIONED_BUILD_DIR_NAME%.zip%RESET%
     goto :error
