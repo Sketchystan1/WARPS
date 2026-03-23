@@ -1,0 +1,81 @@
+LIBRARY userenv
+EXPORTS
+    __ord_104 @104 NONAME
+    RsopLoggingEnabled @105
+    AreThereVisibleLogoffScripts @106
+    AreThereVisibleShutdownScripts @107
+    CreateAppContainerProfile @108
+    CreateEnvironmentBlock @109
+    CreateProfile @110
+    DeleteAppContainerProfile @111
+    DeleteProfileA @112
+    DeleteProfileW @113
+    DeriveAppContainerSidFromAppContainerName @114
+    DeriveRestrictedAppContainerSidFromAppContainerSidAndRestrictedName @115
+    DestroyEnvironmentBlock @116
+    DllCanUnloadNow @117 PRIVATE
+    DllGetClassObject @118 PRIVATE
+    DllRegisterServer @119 PRIVATE
+    DllUnregisterServer @120 PRIVATE
+    EnterCriticalPolicySection @121
+    __ord_122 @122 NONAME
+    ExpandEnvironmentStringsForUserA @123
+    ExpandEnvironmentStringsForUserW @124
+    ForceSyncFgPolicy @125
+    FreeGPOListA @126
+    FreeGPOListW @127
+    GenerateGPNotification @128
+    GetAllUsersProfileDirectoryA @129
+    GetAllUsersProfileDirectoryW @130
+    GetAppContainerFolderPath @131
+    GetAppContainerRegistryLocation @132
+    GetAppliedGPOListA @133
+    GetAppliedGPOListW @134
+    __ord_135 @135 NONAME
+    GetDefaultUserProfileDirectoryA @136
+    __ord_137 @137 NONAME
+    GetDefaultUserProfileDirectoryW @138
+    __ord_139 @139 NONAME
+    GetGPOListA @140
+    GetGPOListW @141
+    GetNextFgPolicyRefreshInfo @142
+    GetPreviousFgPolicyRefreshInfo @143
+    GetProfileType @144
+    GetProfilesDirectoryA @145
+    GetProfilesDirectoryW @146
+    GetUserProfileDirectoryA @147
+    GetUserProfileDirectoryW @148
+    HasPolicyForegroundProcessingCompleted @149
+    LeaveCriticalPolicySection @150
+    LoadProfileExtender @151
+    LoadUserProfileA @152
+    LoadUserProfileW @153
+    ProcessGroupPolicyCompleted @154
+    ProcessGroupPolicyCompletedEx @155
+    RefreshPolicy @156
+    RefreshPolicyEx @157
+    RegisterGPNotification @158
+    RsopAccessCheckByType @159
+    RsopFileAccessCheck @160
+    RsopResetPolicySettingStatus @161
+    RsopSetPolicySettingStatus @162
+    UnloadProfileExtender @163
+    UnloadUserProfile @164
+    UnregisterGPNotification @165
+    WaitForMachinePolicyForegroundProcessing @166
+    WaitForUserPolicyForegroundProcessing @167
+    __ord_175 @175 NONAME
+    __ord_202 @202 NONAME
+    __ord_203 @203 NONAME
+    __ord_206 @206 NONAME
+    __ord_207 @207 NONAME
+    __ord_208 @208 NONAME
+    __ord_209 @209 NONAME
+    __ord_210 @210 NONAME
+    __ord_211 @211 NONAME
+    __ord_212 @212 NONAME
+    __ord_213 @213 NONAME
+    __ord_214 @214 NONAME
+    __ord_217 @217 NONAME
+    __ord_218 @218 NONAME
+    __ord_219 @219 NONAME
